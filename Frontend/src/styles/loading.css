@@ -1,0 +1,5 @@
+.loader{
+    height: 150px;
+    width: 150px;
+    margin-left: clamp(0.313rem, -1.064rem + 6.884vw, 6.25rem);
+}
