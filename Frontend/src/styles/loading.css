@@ -6,7 +6,7 @@
     justify-content: flex-end;
     margin-left: clamp(0.313rem, -0.688rem + 5vw, 2.75rem);
 }
-.line{
+.lines{
     width: 80%;
     height: 20px;
     background-color: rgb(227, 221, 221);
