@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react'
 import '../styles/welcome.css'
 import { FaArrowRightLong } from "react-icons/fa6";
 import { useNavigate } from 'react-router-dom';
+import logo from '../assets/robot1.png';
 
 const Welcome = () => {
   const target=useRef(null)
@@ -28,7 +29,7 @@ const Welcome = () => {
     <>
     <div className='wrapper'>
       <div>
-       <img className='robot1' src='../assets/robot1.png'/>
+       <img className='robot1' src={logo}/>
       </div>
       <div className='right-view'>
         <div className='skills'>
