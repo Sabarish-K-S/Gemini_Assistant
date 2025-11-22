@@ -28,7 +28,7 @@ const Welcome = () => {
     <>
     <div className='wrapper'>
       <div>
-       <img className='robot1' src='./src/assets/robot1.png'/>
+       <img className='robot1' src='../assets/robot1.png'/>
       </div>
       <div className='right-view'>
         <div className='skills'>
